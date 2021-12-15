@@ -1,0 +1,38 @@
+form {
+  width: 365px;
+  border: 2px solid #888;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px 0px 20px;
+  margin-top: 30px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background-color: #F9F4EF;
+  border: none;
+  font-family: Poor Story;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #545454;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  width: 16px;
+  color: #888;
+}
+
+@media only screen and (max-width: 495px) {
+  form {
+    width: 80%;
+  }
+}
