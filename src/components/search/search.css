@@ -1,6 +1,6 @@
 form {
-  width: 365px;
-  border: 2px solid rgb(255, 255, 255);
+  width: 370px;
+  border: 2px solid #4F4F4F;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,25 +18,25 @@ input {
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
-  color: #ffffff;
+  color: #7c7c7c;
   padding-left: 10px;
 }
 
 input::placeholder{
-  color: #e7e7e7;
+  color: #A9A9A9;
 }
 
 input:focus {
   outline: none;
 }
 
-.fa-search {
-  width: 16px;
-  color: #ffffff;
+.feather-search {
+  width: 20px;
+  color: #7c7c7c;
 }
 
 @media only screen and (max-width: 495px) {
   form {
-    width: 80%;
+    width: 85%;
   }
 }
