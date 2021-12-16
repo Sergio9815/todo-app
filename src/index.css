@@ -13,7 +13,7 @@ html, body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 95vh;
+  min-height: 90vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -29,6 +29,5 @@ html, body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aqua;
   justify-content: center;
 }

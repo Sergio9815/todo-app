@@ -4,7 +4,7 @@ li {
   justify-content: center;
   gap: 15px;
   width: 100%;
-  height: 90px;
+  min-height: 75px;
   background-color: #ffffff;
   color: #4F4F4F;
   border-radius: 5px;
