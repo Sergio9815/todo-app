@@ -10,6 +10,8 @@ const todos = [
   { text: 'Tomar curso de React', completed: true },
   { text: 'Sacar al perro de paseo', completed: false },
   { text: 'Conversar con un alien', completed: false },
+  { text: 'Conversar con un alien', completed: false },
+
 ]
 
 function App() {
