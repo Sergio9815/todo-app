@@ -1,6 +1,6 @@
 form {
   width: 365px;
-  border: 2px solid #888;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,24 +11,28 @@ form {
 input {
   width: 100%;
   height: 40px;
-  background-color: #F9F4EF;
+  background-color: transparent;
   border: none;
-  font-family: Poor Story;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 25px;
-  color: #545454;
+  color: #ffffff;
   padding-left: 10px;
+}
+
+input::placeholder{
+  color: #e7e7e7;
 }
 
 input:focus {
   outline: none;
 }
 
-img {
+.fa-search {
   width: 16px;
-  color: #888;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 495px) {

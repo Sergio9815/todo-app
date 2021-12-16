@@ -7,15 +7,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F9F4EF;
+  background-color: #232946;
+  overflow: hidden;
 }
 
 #root {
   width: 100%;
-  /* background-color: aqua; */
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-image: url('./assets/bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

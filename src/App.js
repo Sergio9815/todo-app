@@ -9,6 +9,14 @@ const todos = [
   { text: 'Cortar cebolla', completed: false },
   { text: 'Tomar curso de React', completed: false },
   { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+  { text: 'Sacar al perro de paseo', completed: false },
+
 ]
 
 function App() {

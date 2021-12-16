@@ -1,22 +1,22 @@
 h1 {
-  font-family: 'Ribeye', cursive;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 35px;
   line-height: 41px;
   text-align: center;
-  color: #2B2B2B;
+  color: #ffffff;
   margin: 0;
 }
 
 h2 {
-  font-family: Poor Story;
+  font-family: 'Poor Story', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  color: #676767;
+  color: #c7c7c7;
   margin: 0;
   margin-top: 10px;
 }
