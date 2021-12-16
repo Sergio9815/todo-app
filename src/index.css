@@ -13,7 +13,7 @@ html, body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  min-height: 90vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -30,10 +30,4 @@ html, body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@media only screen and (max-width: 495px) {
-  html, body{
-    height: 70vh;
-  }
 }
