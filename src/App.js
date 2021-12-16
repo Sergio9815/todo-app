@@ -6,17 +6,10 @@ import { TodoItem } from './components/list/TodoItem';
 import { CreateButton } from './components/button/CreateButton';
 
 const todos = [
-  { text: 'Cortar cebolla', completed: false },
-  { text: 'Tomar curso de React', completed: false },
+  { text: 'Cortar cebolla', completed: true },
+  { text: 'Tomar curso de React', completed: true },
   { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-  { text: 'Sacar al perro de paseo', completed: false },
-
+  { text: 'Conversar con un alien', completed: false },
 ]
 
 function App() {
@@ -26,7 +19,11 @@ function App() {
         <TodoSearch />
         <TodoList>
           {todos.map(todo =>(
-            <TodoItem key={todo.text} text={todo.text}/>
+            <TodoItem 
+              key={todo.text} 
+              text={todo.text} 
+              completed={todo.completed}  
+            />
           ))}
         </TodoList>
         <CreateButton /> 
