@@ -34,9 +34,3 @@
   width: 30px;
   color: #4F4F4F;
 }
-
-@media only screen and (max-width: 495px) {
-  /* .btn-container  {
-    width: 96%;
-  } */
-}
