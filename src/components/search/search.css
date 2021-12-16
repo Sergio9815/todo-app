@@ -37,6 +37,6 @@ input:focus {
 
 @media only screen and (max-width: 495px) {
   form {
-    width: 85%;
+    width: 90%;
   }
 }
