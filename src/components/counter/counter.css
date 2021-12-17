@@ -73,4 +73,7 @@ header {
 
 .header button:hover {
   cursor: pointer;
+  transition: .5s;
+  transform: scale(1.2);
+  animation: slide 2s linear;
 }
