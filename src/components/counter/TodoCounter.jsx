@@ -5,7 +5,7 @@ function TodoCounter() {
   return (
       <>
         <h1>To~Do React</h1>
-        <h2>Has completado 2 de 4 TODOs</h2>
+        <h2>Has completado 3 de 5 TODOs</h2>
       </>
   );
 }
