@@ -26,6 +26,9 @@ header {
   padding: 15px;
   width: 100%;
   box-shadow: 0 4px 13px -3px rgb(0 0 0 / 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
