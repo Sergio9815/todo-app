@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 html, body{
@@ -17,7 +18,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: url('./assets/bg.webp');
+  /* background-image: url('./assets/bg.webp'); */
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
