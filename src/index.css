@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +23,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* background-color: aqua; */
 }
 
 #root {
@@ -35,6 +36,6 @@ body{
 
 @media only screen and (max-width: 600px) {
   body {
-    height: 80vh;
+    height: 90vh;
   }
 }
