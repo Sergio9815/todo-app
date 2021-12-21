@@ -39,6 +39,12 @@ header {
   position: absolute;
   top: 10px;
   gap: 10px;
+  z-index: 0;
+  background-color: #fff;
+}
+
+nav {
+  z-index: 1;
 }
 
 .header__git {
