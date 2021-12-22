@@ -1,20 +1,10 @@
 import React from 'react';
 import { AppUI } from './AppUI';
+import { useLocalStorage } from '../hooks';
 
 function App() {
-  
-  const localStorageTodos = localStorage.getItem('TODOS_V1')
-  let parsedTodos;
+  const [todos, saveTodos] = useLocalStorage('TODOS_V1', []);
 
-  if (!localStorageTodos) {
-    localStorage.setItem('TODOS_V1', JSON.stringify([]))
-    parsedTodos = [];
-  }
-  else {
-    parsedTodos = JSON.parse(localStorageTodos);
-  }
-
-  const [todos, setTodos] = React.useState(parsedTodos)
   const [searchValue, setSearchValue] = React.useState('');
 
   const completedTodos = todos.filter(todo => !!todo.completed)
@@ -22,11 +12,6 @@ function App() {
   const searchFilter = todos.filter(todo => todo.text.toUpperCase().includes(searchValue.toUpperCase()))
   const filterItems = () => searchFilter.length > 0 ? searchFilter : todos
   const newItems = filterItems();
-
-  const saveTodos = (newTodos) => {
-    localStorage.setItem('TODOS_V1', JSON.stringify(newTodos))
-    setTodos(newTodos);
-  }
 
   const onComplete = (text, completed) => {
     const index = todos.findIndex(todo => todo.text === text)
