@@ -5,7 +5,7 @@ h1 {
   font-size: 35px;
   line-height: 41px;
   text-align: center;
-  color: #313131;
+  /* color: #313131; */
   margin: 0;
 }
 
@@ -61,14 +61,14 @@ header {
 }
 
 .header__git:hover {
-  border-bottom: 2px solid #313131;
+  border-bottom: 2px solid;
 }
 
 .header button {
   outline: none;
   border: none;
   background-color: transparent;
-  color: #313131;
+  /* color: #313131; */
 }
 
 .header button:hover {
