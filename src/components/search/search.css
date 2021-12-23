@@ -1,4 +1,4 @@
-form {
+.search__container {
   width: 370px;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,7 @@ form {
   margin-top: 30px;
 }
 
-input {
+.search__bar {
   width: 100%;
   height: 40px;
   background-color: transparent;
@@ -22,11 +22,11 @@ input {
   padding-left: 10px;
 }
 
-input::placeholder{
+.search__bar::placeholder{
   color: #A9A9A9;
 }
 
-input:focus {
+.search__bar:focus {
   outline: none;
 }
 
@@ -36,7 +36,7 @@ input:focus {
 }
 
 @media only screen and (max-width: 495px) {
-  form {
+  .search__container {
     width: 80%;
   }
 }
