@@ -23,7 +23,6 @@ function Form() {
           onChange={onTextAreaChange}
         />
         <button 
-          type='Button'
           className='modal__btn'
           onClick={addItem}
           >Agregar</button>

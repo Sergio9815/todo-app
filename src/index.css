@@ -60,6 +60,19 @@ main {
   justify-content: center;
 }
 
+.sweet-loading {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+.sweet-loading p {
+  width: auto;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-image: none;
