@@ -1,3 +1,3 @@
 # Primer proyecto con React.js
 
-![preview](https://user-images.githubusercontent.com/37419848/147325357-ca55fa96-9515-4545-916c-447114d9f610.png)
+![preview](https://user-images.githubusercontent.com/37419848/147326842-3d367f72-5e59-4b67-9e4e-bc19f188a1e7.png)
