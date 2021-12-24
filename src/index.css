@@ -40,12 +40,17 @@ main {
   color: #fff;
 }
 
-.darkTheme a{
+.darkTheme a {
   color: #fff;
 }
 
-.darkTheme svg{
+.darkTheme svg {
   color: #fff;
+}
+
+.darkTheme li {
+  color: #e7e7e7;
+  border-top: 1px solid rgba(197, 197, 197, 0.116);
 }
 
 .hide {

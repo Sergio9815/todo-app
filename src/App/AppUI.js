@@ -11,19 +11,20 @@ import { Modal } from '../Modal';
 import { css } from "@emotion/react";
 import MoonLoader from "react-spinners/MoonLoader";
 
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: blue;
-`;
-
 function AppUI() {
   let color = "#ff8ba7";
-
+  const override = css`
+    display: block;
+    margin: 0 auto;
+    border-color: blue;
+  `;
+  
   const {
     error,
     loading,
     newItems,
+    todosOptions,
+    showList, 
     onComplete,
     onDelete,
     theme,
@@ -54,7 +55,7 @@ function AppUI() {
               </div>
             }
             
-            {newItems.map(todo =>(
+            {todosOptions[showList].map(todo =>(
               <TodoItem 
                 key={todo.text} 
                 text={todo.text} 

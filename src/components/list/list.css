@@ -5,7 +5,7 @@ section {
   overflow-x: hidden;
   background-color: transparent;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 @media only screen and (max-width: 495px) {

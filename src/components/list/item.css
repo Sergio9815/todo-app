@@ -5,8 +5,8 @@ li {
   gap: 15px;
   width: 100%;
   min-height: 75px;
-  background-color: #ffffff;
-  color: #4F4F4F;
+  /* background-color: #ffffff63; */
+  /* color: #4F4F4F; */
   border-radius: 2px;
   /* border-left: 3px solid #fdd8a1; */
   border-top: 1px solid #e7e7e7;
@@ -48,8 +48,12 @@ p {
   width: 20px;
 }
 
-.fa-circle:hover {
-  color: #ff8ba7;
+.fa-circle path{
+  fill: #b9b9b9;
+}
+
+.fa-circle path:hover {
+  fill: #ff8ba7;
 }
 
 .complete {

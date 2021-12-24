@@ -3,7 +3,7 @@ import { TodoContext } from "../../context";
 import './counter.css';
 
 function TodoCounter() {
-  const { todos, totalTodos, theme, setTheme } = React.useContext(TodoContext);
+  const { newItems, completedTodos, theme, setTheme } = React.useContext(TodoContext);
 
   const toggleTheme = () => {
     setTheme(!theme)
@@ -29,7 +29,7 @@ function TodoCounter() {
           </div>
           <nav>
             <h1>To~Do React</h1>
-            <h2>Has completado {totalTodos} de {todos.length} TODOs</h2>
+            <h2>Has completado {completedTodos.length} de {newItems.length} TODOs</h2>
           </nav>
         </header>
   );

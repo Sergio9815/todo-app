@@ -15,10 +15,11 @@ function TodoProvider(props) {
 
   const [searchValue, setSearchValue] = React.useState('');
   const [textArea, setTextArea] = React.useState('');
-
+  const [showList, setShowList] = React.useState('all');
 
   const completedTodos = todos.filter(todo => !!todo.completed);
-  const totalTodos = completedTodos.length;
+
+  const incompleteTodos = todos.filter(todo => !todo.completed);
 
   const searchFilter = todos.filter(todo => todo.text.toUpperCase().includes(searchValue.toUpperCase()));
   const filterItems = () => searchFilter.length > 0 ? searchFilter : todos;
@@ -47,19 +48,27 @@ function TodoProvider(props) {
     saveTodos(arr);
   };
 
+  const todosOptions = {
+    'all': newItems,
+    'complete': completedTodos,
+    'incomplete': incompleteTodos
+  }
+
   return (
     <TodoContext.Provider value={{
       loading,
       error,
+      completedTodos,
       newItems,
-      onComplete,
-      onDelete,
-      totalTodos,
-      todos,
-      searchValue,
-      setSearchValue,
       theme, 
       setTheme,
+      searchValue,
+      setSearchValue,
+      todosOptions,
+      showList, 
+      setShowList,
+      onComplete,
+      onDelete,
       openModal, 
       setOpenModal,
       addTodos,
